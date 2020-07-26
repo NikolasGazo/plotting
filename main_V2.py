@@ -31,7 +31,7 @@ import tkinter as tk
 # import the drop down boxes in tkinter - need END for the insert method
 from tkinter import ttk, Text, END
 # dialog box for files on local machine
-from tkinter import filedialog #<-- this one is shit; crashing the program
+from tkinter import filedialog #<-- 
 #from tkinter import tkFileDialog
 # for message box / alerts
 from tkinter import messagebox
