@@ -18,6 +18,16 @@ Then do some plotting, with the intention of adding specialized plot functions
 ## A window should pop up now...
 ![Main Popup](/screenshots/V1_opening.PNG)
 
+### read in the default csv file (AEM.TO.csv) and click "Process File"
+#### a couple text boxes will pop up with info of the DataFrame types and also a snippet (head and tail) of the file imported
+![Read in file processed](/screenshots/V1_readInFile.PNG)
 
+### click "Plotting" tab and then "Import DF" and "Plot DF" with the two buttons
+![df](/screenshots/V1_importDFandPlot.PNG)
+
+### Now, you can plot!
+
+#### A more detailed breakdown:
+###tbd
 
 
