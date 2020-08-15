@@ -11,7 +11,7 @@
  $ python main.py
 ```
 ## A window should pop up now...
-![Alt text](/screenshots/V1_opening.png?raw=true "Main pop-ip")
+![Alt text](./screenshots/V1_opening.png?raw=true "Main pop-ip")
 
 
  bare bones UI for reading in a file from your local drive
