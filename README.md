@@ -1,3 +1,8 @@
+## Impetus
+I wanted to have the ability to read in a data file (currently only csv) and do some preprocessing of the data.
+convert it into a pandas dataframe
+Then do some plotting, with the intention of adding specialized plot functions
+
 ## How to use
 ```
  $ git clone https://github.com/NikolasGazo/plotting.git
@@ -11,9 +16,8 @@
  $ python main.py
 ```
 ## A window should pop up now...
-![Main Popup](/screenshots/V1_opening.png)
+![Main Popup](/screenshots/V1_opening.PNG)
 
 
- bare bones UI for reading in a file from your local drive
 
- processes the file into a dataframe, which will then be used for plotting + plotting functions
+
