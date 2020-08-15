@@ -2,9 +2,9 @@
 I wanted to have the ability to read in a data file (currently only csv) and do some preprocessing of the data. Convert it into a pandas dataframe. Then do some plotting, with the intention of adding specialized plot functions - see below for intended upgrades
 
 ### my Machine
-## Windows 10 on Lenovo P53
-## my Python setup is Anaconda (I also have Cygwin, although powershell should work assuming you haveyour PATH set appropriately)
-## the default install of Anaconda had everything,
+###### Windows 10 on Lenovo P53
+###### my Python setup is Anaconda (I also have Cygwin, although powershell should work assuming you haveyour PATH set appropriately)
+###### the default install of Anaconda had everything,
 ```
 $ python --version
 Python 3.7.7
@@ -19,7 +19,7 @@ In [1]:
 
 ```
 
-## Except ttkwidgets - you may need to install
+###### Except ttkwidgets - you may need to install
 ![ttkwidgets](https://pypi.org/project/ttkwidgets/)
 
 ### How to use
@@ -47,10 +47,10 @@ In [1]:
 #### Now, you can plot!
 
 ##### A more detailed breakdown:
-## The basic premise/reason for the build was stated above. There are two sides to this project. The data input/cleaning and then the plotting/visualization.
-## I effectively want to make the "Input Data" able to read in any type of data file, which I will specify. Currently it is just CSV since it is easy to read in, but I will want to have my own predefined file types. After the read in, I want a cleaning tool that will make sure the DataFrame is in good form (no bad types) and easily plotable with matplotlib, so need numpy arrays and datetimes. Once cleaned, I can then do some plotting
-## For the "Plotting" tab, I will read in the DataFrame from the first tab. Once read in, I will then plot on the main plot frame, which is a subplot, 1 col x 2 row, with a shared x-axis. From there I will be build various plotting functions and tools for what I desire.
+###### The basic premise/reason for the build was stated above. There are two sides to this project. The data input/cleaning and then the plotting/visualization.
+###### I effectively want to make the "Input Data" able to read in any type of data file, which I will specify. Currently it is just CSV since it is easy to read in, but I will want to have my own predefined file types. After the read in, I want a cleaning tool that will make sure the DataFrame is in good form (no bad types) and easily plotable with matplotlib, so need numpy arrays and datetimes. Once cleaned, I can then do some plotting
+###### For the "Plotting" tab, I will read in the DataFrame from the first tab. Once read in, I will then plot on the main plot frame, which is a subplot, 1 col x 2 row, with a shared x-axis. From there I will be build various plotting functions and tools for what I desire.
 
-## It isn't overly complicated as is, but it is very lightweight and easily run. Please take and build on it if you'd like!
+###### It isn't overly complicated as is, but it is very lightweight and easily run. Please take and build on it if you'd like!
 
 
