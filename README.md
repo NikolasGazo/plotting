@@ -11,7 +11,7 @@
  $ python main.py
 ```
 ## A window should pop up now...
-![Main Popup](screenshots/V1_opening.png?raw=true "Main pop-up")
+![Main Popup](/screenshots/V1_opening.png)
 
 
  bare bones UI for reading in a file from your local drive
